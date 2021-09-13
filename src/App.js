@@ -1,9 +1,11 @@
 import React from 'react'
-
-const App = () => {
+import Setup from './Components/LoadingFunc';
+// import Final from './2-useEffect/final/1-useEffect-basics';
+function App() {
+  
   return (
-    <div>
-      
+    <div className='container'>
+      <Setup />
     </div>
   )
 }
