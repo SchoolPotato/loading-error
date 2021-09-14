@@ -339,3 +339,12 @@ p {
   font-family: "Press Start 2P";
   color: black;
 }
+
+.thin {
+  font-weight: normal;
+}
+
+.rounded {
+  border-radius: 50%;
+  box-shadow: 0.2rem 0.2rem 0.5rem 0.2rem rgba(0, 0, 0, 0.5);
+}
